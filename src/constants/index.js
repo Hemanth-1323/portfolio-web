@@ -1,6 +1,7 @@
 import project1 from "../assets/project1.png";
 import project2 from "../assets/project2.png";
 import project3 from "../assets/pic13.jpeg";
+import quiz from "../assets/quiz.png";
 
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
@@ -33,7 +34,7 @@ user interfaces and overall web experiences.
 export const PROJECTS = [
     {
     title: "React Quiz",
-    image: project1,
+    image: quiz,
     link: "https://react-quiz-ukmq.vercel.app/",
     description:
       "Designed and developed a dynamic React quiz app, leveraging a JSON server fake API for real-time data interactions. Implemented responsive UI components ensuring a seamless user experience.",
