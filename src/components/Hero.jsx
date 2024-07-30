@@ -30,8 +30,9 @@ const Hero = () => {
               animate="visible"
               className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent lg:text-4xl"
             >
-              Front End Developer & <span>
-              Machine Learning Enthusiast <span/>
+              Front End Developer & <br>
+              
+              Machine Learning Enthusiast 
             </motion.span>
             <motion.p
               variants={container(1)}
