@@ -34,6 +34,14 @@ user interfaces and overall web experiences.
 
 export const PROJECTS = [
     {
+    title: "QuantaMind AI",
+    image: quantamind,
+    link: "https://quanta-mind-ai.vercel.app/",
+    description:
+      "Quanta Mind AI is an advanced conversational AI, similar to ChatGPT and Gemini, built using React. It delivers a seamless, fully responsive user experience across all devices, ensuring accessibility and adaptability. The project demonstrates a robust architecture and modern web technologies, highlighting proficiency in building scalable and interactive AI applications.",
+    technologies: ["React", "HTML", "CSS"],
+  },
+    {
     title: "React Quiz",
     image: quiz,
     link: "https://react-quiz-ukmq.vercel.app/",
@@ -41,14 +49,7 @@ export const PROJECTS = [
       "Designed and developed a dynamic React quiz app, leveraging a JSON server fake API for real-time data interactions. Implemented responsive UI components ensuring a seamless user experience.",
     technologies: ["React.js", "CSS", "HTML"],
   },
-  {
-    title: "Theme Park Website",
-    image: project1,
-    link: "https://hemanth-1323.github.io/html-themepark/",
-    description:
-      " Designed and developed a Theme Park Website using HTML, CSS and JavaScript. CSS employed to control the visual representation of the webpage. JavaScript employed to add interactivity.",
-    technologies: ["HTML", "CSS", "JavaScript"],
-  },
+
   {
     title: "GPT 3 Open AI - React",
     image: project2,
@@ -57,14 +58,15 @@ export const PROJECTS = [
       "Crafted a responsive web application using React.js, HTML, and CSS. Meticulously designed and implemented an intuitive user interface for optimal user experience.Demonstrated proficiency in leveraging these technologies to deliver a visually appealing and functional project.",
     technologies: ["HTML", "CSS", "JavaScript", "React"],
   },
-  {
-    title: "QuantaMind AI",
-    image: quantamind,
-    link: "https://quanta-mind-ai.vercel.app/",
+    {
+    title: "Theme Park Website",
+    image: project1,
+    link: "https://hemanth-1323.github.io/html-themepark/",
     description:
-      "Quanta Mind AI is an advanced conversational AI, similar to ChatGPT and Gemini, built using React. It delivers a seamless, fully responsive user experience across all devices, ensuring accessibility and adaptability. The project demonstrates a robust architecture and modern web technologies, highlighting proficiency in building scalable and interactive AI applications.",
-    technologies: ["React", "HTML", "CSS"],
-  },
+      " Designed and developed a Theme Park Website using HTML, CSS and JavaScript. CSS employed to control the visual representation of the webpage. JavaScript employed to add interactivity.",
+    technologies: ["HTML", "CSS", "JavaScript"],
+  }
+
 ];
 
 export const CONTACT = {
