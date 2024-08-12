@@ -33,6 +33,14 @@ user interfaces and overall web experiences.
 ];
 
 export const PROJECTS = [
+      {
+    title: "Cryptoplace",
+    image: quantamind,
+    link: "https://cryptoplace-gamma.vercel.app/",
+    description:
+      "Developed a dynamic cryptoplace website using React.js that integrates the CoinGecko API to display real-time cryptocurrency data. The site features robust search functionality, price visualization through Google Charts, and allows users to switch between different currencies for a customized experience.",
+    technologies: ["React", "HTML", "CSS"],
+  },
     {
     title: "QuantaMind AI",
     image: quantamind,
