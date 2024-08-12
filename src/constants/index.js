@@ -33,14 +33,6 @@ user interfaces and overall web experiences.
 ];
 
 export const PROJECTS = [
-      {
-    title: "QuantaMind AI",
-    image: quantamind,
-    link: "https://quanta-mind-ai.vercel.app/",
-    description:
-      "Quanta Mind AI is an advanced conversational AI, similar to ChatGPT and Gemini, built using React. It delivers a seamless, fully responsive user experience across all devices, ensuring accessibility and adaptability. The project demonstrates a robust architecture and modern web technologies, highlighting proficiency in building scalable and interactive AI applications. ",
-    technologies: ["React.js", "CSS", "HTML"],
-  },
     {
     title: "React Quiz",
     image: quiz,
@@ -66,11 +58,12 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "JavaScript", "React"],
   },
   {
-    title: "Portfolio Website",
-    image: project3,
+    title: "QuantaMind AI",
+    image: quantamind,
+    link: "https://quanta-mind-ai.vercel.app/",
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "React", "TailwindCSS", "Framer Motion"],
+      "Quanta Mind AI is an advanced conversational AI, similar to ChatGPT and Gemini, built using React. It delivers a seamless, fully responsive user experience across all devices, ensuring accessibility and adaptability. The project demonstrates a robust architecture and modern web technologies, highlighting proficiency in building scalable and interactive AI applications.",
+    technologies: ["React", "HTML", "CSS"],
   },
 ];
 
