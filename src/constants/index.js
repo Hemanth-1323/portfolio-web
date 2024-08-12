@@ -2,7 +2,9 @@ import project1 from "../assets/project1.png";
 import project2 from "../assets/project2.png";
 import project3 from "../assets/pic13.jpeg";
 import quantamind from "../assets/fav.jpeg";
+import cryptoplace from "../assets/fav1.jpeg";
 import quiz from "../assets/quiz.png";
+
 
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
@@ -35,7 +37,7 @@ user interfaces and overall web experiences.
 export const PROJECTS = [
       {
     title: "Cryptoplace",
-    image: quantamind,
+    image: cryptoplace,
     link: "https://cryptoplace-gamma.vercel.app/",
     description:
       "Developed a dynamic cryptoplace website using React.js that integrates the CoinGecko API to display real-time cryptocurrency data. The site features robust search functionality, price visualization through Google Charts, and allows users to switch between different currencies for a customized experience.",
